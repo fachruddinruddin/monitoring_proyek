@@ -10,7 +10,7 @@ export const MenuItemDetail = () => {
   if (!menu) return <div>Menu tidak ditemukan</div>;
 
   return (
-    <div className="p-6">
+    <div className="p-6 mt-20">
       <div className="bg-white rounded-lg shadow-lg p-6">
         <h2 className="text-2xl font-bold mb-4">{menu.name}</h2>
         <div className="space-y-2">

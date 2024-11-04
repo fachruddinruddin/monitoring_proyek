@@ -4,7 +4,7 @@ import { menuData } from '../data/menuData';
 
 export const Menu = () => {
   return (
-    <div className="p-6">
+    <div className="p-6 mt-20">
       <h2 className="text-2xl font-bold mb-4">Daftar Menu</h2>
       <MenuList menus={menuData} />
     </div>

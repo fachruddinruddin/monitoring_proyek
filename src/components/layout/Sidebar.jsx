@@ -6,10 +6,10 @@ export const Sidebar = () => {
   const location = useLocation();
   
   return (
-    <div className="bg-blue-100 w-64 min-h-screen p-4 absolute left-0 top-0">
+    <div className="bg-blue-100 w-64 min-h-screen p-4 ">
       <nav>
-        <ul className="space-y-2 mt-12">
-          <li>
+        <ul className="space-y-2 ">
+          <li className="mt-20">
             <Link 
               to="/" 
               className={`flex items-center space-x-3 px-4 py-2 rounded hover:bg-blue-200 ${

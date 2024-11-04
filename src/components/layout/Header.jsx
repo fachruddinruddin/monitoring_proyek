@@ -3,7 +3,7 @@ import { ChevronRight, User, Utensils } from "lucide-react";
 
 export const Header = ({ username }) => {
   return (
-    <header className="bg-blue-600 text-white p-4 m-3 flex justify-between items-center rounded-lg z-10">
+    <header className="bg-blue-600 text-white p-4 m-3 flex justify-between items-center rounded-lg absolute left-1 right-1 z-10">
       <div className="flex items-center space-x-2">
         <Utensils size={20} />
         <span className="font-medium">Menu Restoran |</span>
